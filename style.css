@@ -1,0 +1,39 @@
+body {
+    background: rgb(132, 95, 235);
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 1em;
+    width: 14em;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+img {
+    border-radius: 100%;
+    width: 8em;
+    height: 7em;
+}
+div {
+    text-align: center;
+    padding: 0.8em;
+}
