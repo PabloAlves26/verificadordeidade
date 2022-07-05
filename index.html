@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de Idade</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body onload="carregar()">
     <header>
@@ -13,14 +13,14 @@
     </header>
     <section>
         <div>
-           <p>Ano de nascimento: 
+           <p><b>Ano de nascimento:</b> 
             <input type="number" name="txtano" id="txtano" min="0">
            </p>
-           <p>Sexo:<br> 
-            <input type="radio" name="radsex" id="mas" checked>
-           <label for="mas">Masculino</label>
-           <input type="radio" name="radsex" id="fem">
-           <label for="fem">Feminino</label>
+           <p><b>Sexo:</b><br> 
+            <input type="radio" name="radsex" id="mas" class="radio" checked>
+           <label for="mas"><i>Masculino</i></label>
+           <input type="radio" name="radsex" id="fem" class="radio">
+           <label for="fem"><i>Feminino</i></label>
            </p>
            <p>
             <input id="btn" type="button" value="Verificar" onclick="verificar()">
@@ -35,7 +35,7 @@
         <p>&copy; Luciano Oliver</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
     
 </body>
 </html>

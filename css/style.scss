@@ -1,5 +1,5 @@
 body {
-    background: rgb(132, 95, 235);
+    background: rgb(95, 147, 33);
     font: normal 15pt Arial;
 }
 header {
@@ -35,5 +35,24 @@ img {
 }
 div {
     text-align: center;
-    padding: 0.8em;
+    padding: 0.2em 0.6em 0.2em 0.6em;
+}
+#btn {
+    width: 6em;
+    padding: 0.2em;
+    font-size: 1.2rem;
+    font-weight: 530;
+    background-color: rgb(230, 208, 46);
+    border: none;
+    border-radius: 8px;
+}
+#btn:hover {
+    width: 6em;
+    padding: 0.2em;
+    font-size: 1.2rem;
+    font-weight: 530;
+    background-color: rgb(184, 169, 61);
+    border: none;
+    border-radius: 8px;
+    transform: scale(1.1);
 }
